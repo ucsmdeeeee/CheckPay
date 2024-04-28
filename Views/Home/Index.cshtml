@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Проверить оплату QR";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Проверить оплату QR</title>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+</head>
+<body>
+    <h2>Проверить оплату QR</h2>
+    <input type="text" id="orderIdInput" placeholder="Введтите номер заказа...">
+    <button id="checkPaymentBtn">Проверить оплату</button>
+    <button id="createQRBtn">Создать QR</button>
+    <p id="paymentStatus"></p>
+    <p id="orderUUID"></p>
+    <p id="qrId"></p>
+    <img id="qrCodeImage" src="">
+
+    <script src="~/js/site.js"></script>
+</body>
+</html>
